@@ -3,3 +3,30 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+/*
+Main nav styles
+*/
+
+header{
+  color: white;
+  background: teal;
+  line-height: 60px;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 480px) minmax(auto, 480px) 1fr;
+}
+header h1{
+  margin: 0;
+  grid-column: 2;
+}
+nav{
+  grid-column: 3;
+}
+.main-nav ul{
+  margin: 0;
+  list-style:none;
+  display: grid;
+  grid-gap: 10px;
+}
+.main-nav ul li{
+  grid-row: 1;
+}
