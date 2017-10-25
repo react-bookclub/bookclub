@@ -30,3 +30,45 @@ nav{
 .main-nav ul li{
   grid-row: 1;
 }
+/*
+books.all
+*/
+/*.books-home-page{
+  width: 60%;
+  margin: 0 auto;
+}
+.all-books{
+  width: 100%;
+}
+.all-books ul{
+  list-style: none;
+}
+.all-books li{
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #000;
+  width: 25%;
+  float: left;
+}*/
+
+.Books{
+  display: grid;
+  grid-template-columns: 1fr 960px 1fr;
+}
+.Books section{
+  grid-column: 2;
+}
+.Books h2 {
+  font-size: 1.2em;
+  color: teal;
+}
+.all-books ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.all-books ul li{
+  border: 2px solid teal;
+  border-radius: 25px;
+}
